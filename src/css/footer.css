@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif,Verdana,Tahoma, sans-serif;
+}
+
+:root {
+    --main-color:#e94560;
+    --second-color:#f7ce26;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+/* ======== Footer ========== */
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+footer ul {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+}
+footer ul h2 {
+    padding: 20px 0;
+}
+footer ul p {
+    line-height: 23px;
+    color: #aaa;
+    width: 300px;
+}
+
+footer .address-list {
+
+}
+footer .address-list li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    cursor: pointer;
+}
+footer .address-list li i {
+    padding-right: 20px;
+}
+footer .address-list li span {
+    padding: 10px 0;
+}
+
+footer .social-list  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .social-list li {
+    padding: 9px;
+    margin: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+footer .social-list li:hover {
+    scale: 1.4;
+}
+
+footer .social-list .facebook {
+    background-color:#3b5998 ;
+}
+footer .social-list .twitter {
+    background-color:#55acee ;
+}
+footer .social-list .linkedin {
+    background-color:#007bb5 ;
+}
+footer .social-list .instagram {
+    background-color:#e4405f ;
+}
+footer .social-list .pinterest {
+    background-color: #bd081c;
+}
+
+
+footer .categories-footer,
+footer .quick-list{
+    padding: 15px;
+}
+footer .categories-footer li,
+footer .quick-list li{
+    padding: 10px;
+    letter-spacing: 2px;
+    margin: 5px auto;
+    font-size: 18px;
+    text-wrap: balance;
+}
+
+footer .tweet-list li {
+    display: flex;
+    padding: 10px 0;
+}
+footer .tweet-list li i {
+    padding: 10px;
+    font-size: 20px;
+}
