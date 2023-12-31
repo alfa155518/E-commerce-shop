@@ -63,7 +63,7 @@ const Modal = ({statusModal,setCartProducts}) => {
             alert("Proceed Done")
 
             setTimeout(() =>{
-                window.location.pathname = '/'
+                window.location.pathname = '/E-commerce-shop'
             }, 1000)
         }
 

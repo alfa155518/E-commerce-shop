@@ -4,7 +4,7 @@ import BlogCard from "../sections/BlogsCard";
 import blogList from "../data/blogdata";
 
 import '../css/blog.css'
-import SearchShop from "../sections/SearchShop";
+
 
 
 
