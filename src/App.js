@@ -65,7 +65,7 @@ function App() {
       <>
     <NavBar/>
       <div className='scroll-top' onClick={() => scrollToTop()}><i className="fa-solid fa-arrow-up"></i></div>
-    <Routes basename={'E-commerce-shop'}>
+    <Routes basename={'/E-commerce-shop'}>
       <Route path='/' element={<Home/>}/>
       <Route path='/shop' element={<Shop addToCart={addToCart}/>}/>
       <Route path='/shop/:id' element={<SingleProduct/>}/>
