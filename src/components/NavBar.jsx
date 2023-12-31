@@ -30,7 +30,7 @@ const NavBar = () => {
 const itemLinks = [
     {
         name:'Home',
-        display:'/E-commerce-shop'
+        display:'/'
     },
     {
         name:'Shop',
