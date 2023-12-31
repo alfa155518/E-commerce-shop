@@ -57,7 +57,7 @@ const itemLinks = [
     return (
         <nav>
             <div className="logo">
-                <Link to={'/'}><img src={require('../images/logo/logo.png')} alt="logo-img" /></Link>
+                <Link to={'/E-commerce-shop'}><img src={require('../images/logo/logo.png')} alt="logo-img" /></Link>
             </div>
             <ul className='nav-links'>
                 {
