@@ -39,7 +39,7 @@ const Landing = () => {
             {
                 valueSearch && productsName.map((product,i) =>
                 
-                <li key={i}><Link to={`/E-commerce-shop/${product.id}`}>{product.name}</Link></li>
+                <li key={i}><Link to={`/shop/${product.id}`}>{product.name}</Link></li>
                 
                 )
             }

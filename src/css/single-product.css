@@ -32,6 +32,7 @@ a {
 .container-product-page .single-product .product-img {
     flex: 1;
     padding: 15px;
+    text-align: center;
 }
 .container-product-page .single-product .product-img img {
     border-radius: 5px;
@@ -90,33 +91,6 @@ a {
 .container-product-page .review {
     flex: 1;
 }
-
-/* Slide Product */
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-
-
 
 /* =========== Review Section ============ */
 
@@ -194,4 +168,13 @@ a {
 }
 .container-product-page .shop-right-side .container-search {
     display: none;
+}
+
+
+
+
+@media (max-width:500px) {
+    .container-product-page .single-product .product-img img {
+        width: 100px;
+    }
 }
